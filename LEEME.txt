@@ -1,0 +1,34 @@
+MI VISOR 3D — INSTRUCCIONES INICIALES
+
+Este proyecto es una base para una página de fondo negro que muestra un único modelo 3D.
+
+ARCHIVOS
+- index.html: la página web y sus controles.
+- models/model.glb: aquí debe ir el modelo 3D que descargues.
+
+PASO 1: PONER EL MODELO EN LA CARPETA
+Si el archivo descargado es .glb, cámbiale el nombre a:
+model.glb
+y cópialo dentro de la carpeta models.
+
+Si el archivo viene como .zip, primero descomprímelo y busca el archivo .glb. Si no trae .glb, no cambies simplemente la extensión.
+
+PASO 2: ABRIR LA PÁGINA
+No abras index.html con doble clic, porque los navegadores pueden bloquear la carga del modelo por seguridad.
+Una forma sencilla es instalar Visual Studio Code y la extensión “Live Server”:
+1. Abre la carpeta MiVisor3D en Visual Studio Code.
+2. Instala la extensión Live Server.
+3. Haz clic derecho en index.html.
+4. Elige “Open with Live Server”.
+
+Necesitas conexión a internet para cargar Three.js desde el CDN.
+
+CONTROLES
+- Arrastrar con el botón izquierdo: girar el modelo.
+- Rueda del mouse: acercar o alejar.
+- Botón derecho: desplazar la vista.
+- Restablecer vista: volver a la posición inicial.
+- Giro automático: activar/desactivar la rotación.
+- Pantalla completa: ampliar el visor.
+
+
